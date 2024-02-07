@@ -3,4 +3,5 @@
 int main()
 {
     std::cout << "pasha BOBS!\n";
+    //жопа
 }
