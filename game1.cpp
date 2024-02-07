@@ -2,5 +2,5 @@
 
 int main()
 {
-    std::cout << "NIKITA BOBS!\n";
+    std::cout << "pasha BOBS!\n";
 }
