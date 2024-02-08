@@ -35,6 +35,14 @@ Map::Map(int id_)
 		}break;
 	}
 };
+int Map::getId() 
+{
+	return id;
+}
+void Map::setId(int id) 
+{
+	this->id = id;
+}
 class Player;
 Player::Player(){};
 void Player::attack() 
@@ -57,9 +65,11 @@ class Game;
 void Game::StartGameCycle() 
 {
 	window.create(sf::VideoMode(1000, 1000), "Game");
+	int array[4] = {1,2,3,4};
+	std::random_shuffle(array[0], array[3]);
 	for (int i = 0; i < 4; i++) 
 	{
-		maps[i]
+		maps[i].setId(array[i]);
 	}
 	while (window.isOpen())
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "SFML/Graphics.hpp"
-
-
+#include <ctime>
+#include <algorithm>
 
 class Map
 {
@@ -12,6 +12,8 @@ private:
 public:
 	Map();
 	Map(int id_);
+	int getId();
+	void setId(int id);
 };
 
 

@@ -5,8 +5,8 @@ using namespace sf;
 
 int main()
 {
+	srand(time(NULL));
 	Game game;
-
 	game.StartGameCycle();
 	return 0;
 }

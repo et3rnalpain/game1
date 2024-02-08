@@ -1,4 +1,4 @@
-﻿  game1.cpp
-  Source.cpp
-C:\Users\Invonz\source\repos\game1\Source.cpp(63,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+﻿  Source.cpp
+C:\Users\mazur\source\repos\game1\Source.cpp(63,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  game1.cpp
   Создание кода...
