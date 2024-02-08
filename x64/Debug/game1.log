@@ -1,28 +1,4 @@
-﻿  game1.cpp
-C:\Users\mazur\source\repos\game1\game1.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Source.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(844,55): error C2794: difference_type: не является прямым или косвенным базовым классом для "std::iterator_traits<_RanIt>"
-          with
-          [
-              _RanIt=int
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(5199,20): message : выполняется компиляция ссылки на экземпляр псевдоним шаблон функции "std::_Iter_diff_t<_RanIt>"
-          with
-          [
-              _RanIt=int
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(5285): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::shuffle<_RanIt,std::_Rand_urng_from_func&>(_RanIt,_RanIt,_Urng)"
-          with
-          [
-              _RanIt=int,
-              _Urng=std::_Rand_urng_from_func &
-          ]
-C:\Users\mazur\source\repos\game1\Source.cpp(69,40): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::random_shuffle<int>(_RanIt,_RanIt)"
-          with
-          [
-              _RanIt=int
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(5197): error C2938: "std::_Iter_diff_t": не удалось специализировать шаблон псевдонима
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(5197): error C2514: "std::_Rng_from_urng": невозможно создать шаблон класса.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(4913,1): message : см. объявление "std::_Rng_from_urng"
+﻿  Source.cpp
+C:\Users\mazur\source\repos\game1\Source.cpp(63,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  game1.cpp
   Создание кода...
