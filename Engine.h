@@ -20,7 +20,7 @@ public:
 
 class Player
 {
-private:
+protected:
 	double x,y,ms,health,damage;
 	bool invis;
 public:
@@ -32,7 +32,8 @@ public:
 
 class PlayerUsual : public Player 
 {
-
+public:
+	void move() override;
 };
 
 class PlayerInvisible : public Player
