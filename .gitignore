@@ -31,3 +31,4 @@
 *.out
 *.app
 /.vs/game1/v17
+/packages/SFML_VS2019.1.0.0/build/native/Win32/lib.rar
