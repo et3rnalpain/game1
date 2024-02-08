@@ -53,7 +53,7 @@ class PlayerSnake : public Player
 class Game
 {
 private:
-	Player player;
+	Player* player;
 	sf::RenderWindow window;
 	Map* maps = new Map[4];
 public:
