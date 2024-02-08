@@ -15,7 +15,8 @@ private:
 class Player
 {
 private:
-	double x,y,xms,yms,health,damage;
+	double x,y,ms,health,damage;
+	bool invis;
 public:
 	Player();
 	virtual void attack();
