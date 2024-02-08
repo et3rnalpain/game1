@@ -7,6 +7,10 @@ class Game
 
 class Player
 {
+private:
+	double movespeed;
+
+public:
 
 };
 
