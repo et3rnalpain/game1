@@ -75,8 +75,16 @@ void Game::StartGameCycle()
 	maps[1].setXY(500, 0);
 	maps[2].setXY(0, 500);
 	maps[3].setXY(500,500);
+	sf::Event event;
 	while (window.isOpen())
 	{
+		while (window.pollEvent(event)) 
+		{
+			if(event.type == sf::Event::Closed)
+			{
+				window.close();
+			}
+		}
 		for (int i = 0; i < 4; i++) 
 		{
 			window.draw(maps[i].rect);
