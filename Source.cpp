@@ -51,7 +51,7 @@ void Player::attack()
 };
 void Player::move()
 {
-
+	//huy nikita
 };
 void Player::checkPosition()
 {
