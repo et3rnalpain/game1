@@ -9,6 +9,11 @@ private:
 	int id;
 	double x, y, h, w;
 	sf::Color color;
+public:
+	int getId() 
+	{
+		return id;
+	}
 };
 
 
