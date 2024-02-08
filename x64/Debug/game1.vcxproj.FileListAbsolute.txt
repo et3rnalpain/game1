@@ -1,4 +1,8 @@
 C:\Users\Admin\source\repos\game1\x64\Debug\game1.exe
 C:\Users\Invonz\source\repos\game1\x64\Debug\game1.exe
 C:\Users\daver\source\repos\game1\x64\Debug\game1.exe
+<<<<<<< HEAD
+C:\Users\Никита\Source\Repos\game1\x64\Debug\game1.exe
+=======
 C:\Users\mazur\Source\Repos\game1\x64\Debug\game1.exe
+>>>>>>> 9e2919deee6942cdc6778d232eb520bf998845f3

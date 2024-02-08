@@ -47,11 +47,11 @@ class Player;
 Player::Player(){};
 void Player::attack() 
 {
-
+	//huy
 };
 void Player::move()
 {
-
+	//huy nikita
 };
 void Player::checkPosition()
 {
