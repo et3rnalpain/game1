@@ -5,6 +5,7 @@ using namespace sf;
 
 int main()
 {
-	RenderWindow window(VideoMode(1000, 1000), "Game");
+	Game game;
+	game.StartGameCycle();
 	return 0;
 }

@@ -16,7 +16,7 @@ void Player::checkPosition()
 {
 
 };
-class PlayerUsual : public Player{};
-class PlayerInvisible : public Player{};
-class PlayerBoss : public Player{};
-class PlayerSnake : public Player{};
+class PlayerUsual;
+class PlayerInvisible;
+class PlayerBoss;
+class PlayerSnake;

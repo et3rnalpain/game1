@@ -1,16 +1,7 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 
-class Game
-{
-private:
 
-public:
-	void StartGameCycle() 
-	{
-
-	}
-};
 
 class Map
 {
@@ -50,4 +41,19 @@ class PlayerBoss : public Player
 class PlayerSnake : public Player
 {
 
+};
+
+class Game
+{
+private:
+	Player player;
+public:
+	void StartGameCycle()
+	{
+		sf::RenderWindow window(sf::VideoMode(1000, 1000), "Game");
+		while (window.isOpen())
+		{
+			window.display();
+		}
+	}
 };
