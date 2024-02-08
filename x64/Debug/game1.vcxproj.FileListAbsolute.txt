@@ -1,3 +1,4 @@
 C:\Users\Admin\source\repos\game1\x64\Debug\game1.exe
 C:\Users\Invonz\source\repos\game1\x64\Debug\game1.exe
 C:\Users\daver\source\repos\game1\x64\Debug\game1.exe
+C:\Users\mazur\Source\Repos\game1\x64\Debug\game1.exe
