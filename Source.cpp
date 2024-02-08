@@ -55,7 +55,8 @@ void Player::move()
 };
 void Player::checkPosition()
 {
-
+	//HUI 
+	//HUIIII!!
 };
 class PlayerUsual;
 class PlayerInvisible;
