@@ -11,9 +11,9 @@ private:
 	sf::Color color;
 public:
 	Map();
-	Map(int id_);
 	int getId();
 	void setId(int id);
+	void setXY(int x_, int y_);
 };
 
 
