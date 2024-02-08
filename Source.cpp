@@ -49,6 +49,11 @@ void Player::attack()
 {
 	//huy
 };
+
+
+
+
+
 void Player::move()
 {
 	//huy nikita
