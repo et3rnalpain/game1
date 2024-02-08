@@ -10,6 +10,7 @@ private:
 	double x, y, h = 500, w = 500;
 	sf::Color color;
 public:
+	sf::RectangleShape rect;
 	Map();
 	int getId();
 	void setId(int id);

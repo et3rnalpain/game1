@@ -39,6 +39,9 @@ void Map::setXY(int x_, int y_)
 {
 	x = x_;
 	y = y_;
+	Map::rect.setSize(sf::Vector2f(h, w));
+	Map::rect.setPosition(sf::Vector2f(x, y));
+	Map::rect.setFillColor(color);
 }
 class Player;
 Player::Player(){};
@@ -68,8 +71,16 @@ void Game::StartGameCycle()
 	{
 		maps[i].setId(array[i]);
 	}
+	maps[0].setXY(0, 0);
+	maps[1].setXY(500, 0);
+	maps[2].setXY(0, 500);
+	maps[3].setXY(500,500);
 	while (window.isOpen())
 	{
+		for (int i = 0; i < 4; i++) 
+		{
+			window.draw(maps[i].rect);
+		}
 		window.display();
 	}
 }

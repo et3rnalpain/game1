@@ -1,4 +1,22 @@
 ﻿  Source.cpp
-C:\Users\mazur\source\repos\game1\Source.cpp(63,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
-  game1.cpp
-  Создание кода...
+C:\Users\mazur\source\repos\game1\Source.cpp(42,36): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\mazur\source\repos\game1\Source.cpp(42,33): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\mazur\source\repos\game1\Source.cpp(43,40): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\mazur\source\repos\game1\Source.cpp(43,37): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  game1.vcxproj -> C:\Users\mazur\source\repos\game1\x64\Debug\game1.exe
