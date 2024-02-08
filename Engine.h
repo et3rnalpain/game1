@@ -7,8 +7,10 @@ class Map
 {
 private:
 	int id;
-	double x, y, h, w;
+	double x, y, h = 500, w = 500;
 	sf::Color color;
+public:
+	Map(int id_);
 };
 
 
