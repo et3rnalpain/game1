@@ -1,16 +1,3 @@
 #include "Engine.h"
+#include "SFML/Graphics.hpp"
 
-class Game 
-{
-
-};
-
-class Player 
-{
-
-};
-
-class Map 
-{
-
-};
