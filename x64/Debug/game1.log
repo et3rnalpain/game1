@@ -1,27 +1,2 @@
-﻿  game1.cpp
-C:\Users\Никита\source\repos\game1\game1.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Source.cpp
-C:\Users\Никита\source\repos\game1\Source.cpp(42,36): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\Никита\source\repos\game1\Source.cpp(42,33): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\Никита\source\repos\game1\Source.cpp(43,40): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\Никита\source\repos\game1\Source.cpp(43,37): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-  Создание кода...
-  LINK : не найден или не выполнена сборка C:\Users\Никита\source\repos\game1\x64\Debug\game1.exe при последней инкрементной компоновке; выполняется полная компоновка
-  game1.vcxproj -> C:\Users\Никита\source\repos\game1\x64\Debug\game1.exe
+﻿  game1.vcxproj -> C:\Users\Никита\source\repos\game1\x64\Debug\game1.exe
 D:\VisualStudio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5375,5): error MSB3541: Files содержит недопустимое значение "<<<<<<< HEAD". Путь содержит недопустимые знаки.
