@@ -9,4 +9,5 @@ int main()
     RenderWindow window(VideoMode(1200, 800), "IGRA");
     return 0;
     //YA TE ZUB DAY BLYA BUDU
+    //сосать
 }
