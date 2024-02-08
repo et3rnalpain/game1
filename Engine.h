@@ -47,13 +47,7 @@ class Game
 {
 private:
 	Player player;
+	sf::RenderWindow window;
 public:
-	void StartGameCycle()
-	{
-		sf::RenderWindow window(sf::VideoMode(1000, 1000), "Game");
-		while (window.isOpen())
-		{
-			window.display();
-		}
-	}
+	void StartGameCycle();
 };
