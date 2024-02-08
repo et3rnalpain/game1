@@ -9,4 +9,5 @@ int main()
 	Game game;
 	game.StartGameCycle();
 	return 0;
+//prikol
 }
