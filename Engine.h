@@ -3,7 +3,13 @@
 
 class Game
 {
+private:
 
+public:
+	void StartGameCycle() 
+	{
+
+	}
 };
 
 class Map
