@@ -24,6 +24,10 @@ class Game;
 void Game::StartGameCycle() 
 {
 	window.create(sf::VideoMode(1000, 1000), "Game");
+	for (int i = 0; i < 4; i++) 
+	{
+		maps[i]
+	}
 	while (window.isOpen())
 	{
 		window.display();
