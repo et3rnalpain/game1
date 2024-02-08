@@ -9,6 +9,9 @@ private:
 	int id;
 	double x, y, h = 500, w = 500;
 	sf::Color color;
+public:
+	Map();
+	Map(int id_);
 };
 
 
