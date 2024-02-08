@@ -1,27 +1,2 @@
-<<<<<<< HEAD
-﻿  game1.cpp
-  game1.vcxproj -> C:\Users\Никита\source\repos\game1\x64\Debug\game1.exe
-=======
-﻿  Source.cpp
-C:\Users\mazur\source\repos\game1\Source.cpp(42,36): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\mazur\source\repos\game1\Source.cpp(42,33): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\mazur\source\repos\game1\Source.cpp(43,40): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\mazur\source\repos\game1\Source.cpp(43,37): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-  game1.vcxproj -> C:\Users\mazur\source\repos\game1\x64\Debug\game1.exe
->>>>>>> 9e2919deee6942cdc6778d232eb520bf998845f3
+﻿  game1.vcxproj -> C:\Users\Никита\source\repos\game1\x64\Debug\game1.exe
+D:\VisualStudio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5375,5): error MSB3541: Files содержит недопустимое значение "<<<<<<< HEAD". Путь содержит недопустимые знаки.

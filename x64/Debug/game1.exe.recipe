@@ -2,11 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-<<<<<<< HEAD
       <FullPath>C:\Users\Никита\source\repos\game1\x64\Debug\game1.exe</FullPath>
-=======
-      <FullPath>C:\Users\mazur\source\repos\game1\x64\Debug\game1.exe</FullPath>
->>>>>>> 9e2919deee6942cdc6778d232eb520bf998845f3
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
