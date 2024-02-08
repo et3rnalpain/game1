@@ -1,17 +1,12 @@
 ﻿#include <iostream>
 #include <SFML/Graphics.hpp>
-
+#include "Engine.h"
 using namespace sf;
 
 int main()
 {
-    std::cout << "pasha BOBS!\n";
-    RenderWindow window(VideoMode(1200, 800), "IGRA");
-    while (true) 
-    {
-        window.display();
-    }
-    return 0;
-    //YA TE ZUB DAY BLYA BUDU
-    //сосать
+	srand(time(NULL));
+	Game game;
+	game.StartGameCycle();
+	return 0;
 }

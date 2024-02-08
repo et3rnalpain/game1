@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.33.31629:TargetPlatformVersion=10.0.20348.0:
 Debug|x64|C:\Users\Никита\source\repos\game1\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.35.32215:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|C:\Users\mazur\source\repos\game1\|
+>>>>>>> 9e2919deee6942cdc6778d232eb520bf998845f3
