@@ -2,10 +2,7 @@
 
 class Game
 {
-	Game() 
-	{
-
-	}
+	Game();
 };
 
 class Player
